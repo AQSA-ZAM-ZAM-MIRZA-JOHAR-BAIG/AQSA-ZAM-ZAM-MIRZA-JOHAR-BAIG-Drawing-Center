@@ -781,6 +781,24 @@ img {
     color: var(--text-muted);
 }
 
+.about-featured-image {
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.about-extra-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: var(--transition);
+}
+
+.about-extra-img:hover {
+    transform: scale(1.02);
+}
+
 .about-actions {
     display: flex;
     align-items: center;
